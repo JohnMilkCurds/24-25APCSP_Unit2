@@ -8,7 +8,7 @@ print("Analyzing a one/two-word password ...")
 time_start = time.time()
 
 # attempt to find password
-found, num_guesses = pwa.two_word(password)
+found, num_guesses = pwa.digit(password)
 time_end = time.time()
 
 # report results
